@@ -11,18 +11,18 @@ def fahrenheit():
 
     try:
         print("")
-        celsius_asfloat = float(celsius)
-        fahrenheit = 9 / 5 * celsius_asfloat + 32
-        print("{0}°C is equal to {1:.2f}°F.".format(celsius, fahrenheit))
+        celsius_as_float = float(celsius)
+        fahrenheit = 9 / 5 * celsius_as_float + 32
+        print("{0}°C is equal to {1:.2f}°F.".format(celsius_as_float, fahrenheit))
 
     except ValueError:
         print("Invalid input, please try again.")
 
-    print("\n\nDone.")
-
 
 def main():
     fahrenheit()
+
+    print("\n\nDone.")
 
 
 if __name__ == "__main__":
